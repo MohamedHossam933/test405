@@ -1,0 +1,231 @@
+body,html
+{
+    height: 100%;
+}
+
+body
+{
+        background-image: url("../cover-1.jpg");
+        position: relative;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+
+
+
+.log-in
+{
+    width: 50%;
+    margin-bottom: 5%;
+    background: rgba(140, 9, 255, 0.5);
+    margin-left: 25%;
+    margin-top: 8%;   
+    
+    border-radius: 15px;
+    
+}
+/*========================================================*/
+
+/*style the logo*/
+.logo
+{
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: -5%;
+}
+/*========================================================*/
+
+/*style the username and password (label and input field)*/
+.user
+{
+    color: #fff;
+    font-family: Arial Black;
+    margin-left: 20%;
+}
+
+.inuser
+{
+    margin-left: 20%;
+    width: 50%;
+    border-radius: 25px;
+    padding-left: 4%;
+}
+
+.pass
+{
+    color: #fff;
+    font-family: Arial Black;
+    margin-left: 20%;
+}
+
+.password
+{
+    margin-left: 20%;
+    width: 50%;
+    border-radius: 25px;
+    padding-left: 4%;
+}
+
+i
+{
+    margin-left: 20%;
+    margin-right: -24%;
+    position: relative;
+    border-right: 1px solid #000;  
+    padding: 0px 3px; 
+}
+/*========================================================*/
+
+/*style the log in button*/
+.sign-in
+{
+    margin-left: 36%;
+    margin-top: 5%;
+    border-radius: 15px;
+    padding: 1% 3% 1% 3%;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-color: rgba(255, 0, 0, 0.5) ;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 15%;
+    transition: 0.2s;
+}
+
+.sign-in:hover
+{
+    background-color: rgba(255, 255, 255 , 0.5);
+    border-color: rgba(255, 255, 255 , 0.5) ;
+    color: rgb(0, 0, 0);
+    transition: 0.2s;
+}
+/*========================================================*/
+
+/*style create account div and forget link*/
+.create
+{
+    margin-left: 30%;
+    margin-top: 5%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.create a
+{
+    
+    color: #fff;
+    font-weight: bold;
+}
+
+.create a:hover
+{
+    color: #000;
+}
+
+.forgot
+{
+    color: rgb(255, 0, 0) !important;
+    margin-left: 20%;
+}
+/*========================================================*/
+
+/*style copyright div*/
+.copy
+{
+    background-color: #333;
+    color: #0fe7e7;
+    text-align: center;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.logo-2
+{
+    color: #000;
+    text-decoration: none !important;
+    font-family: Forte;
+    margin-left: 0%;
+    text-shadow: 2px 2px 5px #fff;
+}
+
+.logo-2:hover
+{
+    color: #000;
+}
+
+.c,.dot
+{
+    color: rgb(255, 0, 0);
+}
+/*========================================================*/
+
+@media screen and (max-width: 600px) 
+{
+    .col-25, .col-75, .log-in
+    {
+           width: 70% !important;
+           margin-left: 12% !important;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .col-25, .col-75, input
+    {
+           width: 70% !important;
+           margin-left: 15% !important;
+           padding-left: 8% !important;
+    }
+}
+
+
+@media screen and (max-width: 600px) 
+{
+    .col-25, .col-75, .sign-in
+    {
+           width: 30% !important;
+           margin-left: 35% !important;
+           padding: 1% 3% 1% 3% !important;
+    }
+}
+
+
+@media screen and (max-width: 600px) 
+{
+    .col-25, .col-75, .create
+    {
+           
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .col-25, .col-75, .logo
+    {
+           width: 80% !important;
+           margin-left: 1% !important;
+           padding-left: 15% !important;
+           
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .col-25, .col-75, .copy
+    {
+           width: 100% !important;
+           
+           height: 53px;
+           padding-top: 2.5%;
+    }
+}
+
+@font-face
+{
+    font-family: "FORTE";
+    src: url("Fonts/FORTE.TTF");
+    font-style: normal;
+}
